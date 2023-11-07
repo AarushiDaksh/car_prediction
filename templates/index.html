@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" class="favicon">
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+
+    <title>Car Price Predictor</title>
+  </head>
+  <body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">
+                <i class="ri-steering-fill"></i>
+                NextCar
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link ">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#featured" class="nav__link">Featured</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Togglar Button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--************* MAIN CODE ****************-->
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="shapeX shape__big"></div>
+            <div class="shapeX shape__small"></div>
+
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Pick Your Best Car
+                    </h1>
+                    <h2 class="home__subtitle">
+                        Ferrari 458
+                    </h2>
+                    <h3 class="home__elec">
+                        <i class="ri-flashlight-fill"></i>
+                        RELENTLESS FORCE
+                    </h3>
+                </div>
+
+                <img src="static/img/home5.png" alt="" class="home__img">
+                <div class="home__car">
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-temp-cold-line"></i>
+                        </div>
+                        <h2 class="home__car-number">3.0s</h2>
+                        <h3 class="home__car-name">0-100 km/h</h3>
+
+                    </div>
+
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-dashboard-2-line"></i>
+                        </div>
+                        <h2 class="home__car-number">419</h2>
+                        <h3 class="home__car-name">POWER (KW)</h3>
+
+                    </div>
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-flashlight-fill"></i>
+                        </div>
+                        <h2 class="home__car-number">325 km/h</h2>
+                        <h3 class="home__car-name">MAX. SPEED</h3>
+
+                    </div>
+
+                </div>
+
+                <a href="#about" class="home__button">START</a>
+
+                <div class="slider__bg">
+                <div class="slider__bg-navBtn active"></div>
+                <div class="slider__bg-navBtn"></div>
+                <div class="slider__bg-navBtn"></div>
+                <div class="slider__bg-navBtn"></div>
+                <div class="slider__bg-navBtn"></div>
+                
+                </div>
+
+
+
+            </div>
+            <div class="home__social">
+                <a href="#" class="home__social-icon"><i class="ri-facebook-fill"></i></a>
+                <a href="#" class="home__social-icon"><i class="ri-instagram-fill"></i></a>
+                <a href="#" class="home__social-icon"><i class="ri-twitter-fill"></i></a>
+
+            </div>
+
+        </section>
+         <!--==================== GALLERY BANNER ====================-->
+         <section class="gallery section">
+            <div class="gallery__container container grid">
+                <video class="video__slide active" src="static/video/vid_1.mp4" autoplay muted loop></video>
+                <video class="video__slide" src="static/ideo/vid_4.mp4" autoplay muted loop></video>
+                <video class="video__slide" src="static/video/vid_3.mp4" autoplay muted loop></video>
+                <video class="video__slide" src="static/video/vid_2.mp4" autoplay muted loop></video>
+                <video class="video__slide" src="static/video/vid_5.mp4" autoplay muted loop></video>
+            
+            </div>
+
+        </section>
+        <section class="about" id="about">
+            <div class="container" >
+                <div class="row">
+                    <div class="card mt-50" style = "width:100%;height:100% ;background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);>
+                        <div class = "card-header">
+                            <div class="col-12" style="text-align:center">
+                                <h1>Welcome to Car Price Predictor</h1>
+                            </div>
+                        </div>
+                        <div class = "card-body">
+                          <form method="post" action="#" accept-charset="UTF-8">
+                            <div class="col-18 form-group" style="text-align:center">
+                              <label><b>Select Company: </b></label>
+                              <select class="selectpicker form-control" id = "company" name="company" required="1" onchange ="load_car_models(this.id,'car_model')">
+        
+                                {% for company in companies %}
+                                <option value="{{ company }}">{{ company }}</option>
+                                {% endfor %}
+        
+                              </select>
+                            </div>
+                            
+                            <div class="col-18 form-group" style="text-align:center">
+                              <label><b>Select Model: </b></label>
+                              <select class="selectpicker form-control" id = "car_model" name="car_model" required="1">
+        
+        
+                              </select>
+                            </div>
+        
+                            <div class="col-18 form-group" style="text-align:center">
+                              <label><b>Select Year of Purchase: </b></label>
+                              <select class="selectpicker form-control" id = "year" name="year" required="1">
+        
+                                {% for year in years %}
+                                <option value="{{ year }}">{{ year }}</option>
+                                {% endfor %}
+        
+                              </select>
+                            </div>
+        
+                            <div class="col-18 form-group" style="text-align:center">
+                              <label><b>Select Fuel Type: </b></label>
+                              <select class="selectpicker form-control" id = "fuel_type" name="fuel_type" required="1">
+                                
+                              {% for fuel_type in fuel_types %}
+                                <option value="{{ fuel_type }}">{{ fuel_type }}</option>
+                              {% endfor %}
+        
+                              </select>
+                            </div>
+        
+                            <div class="col-18 form-group" style="text-align:center">
+                              <label><b>Enter Number of Kilometers travelled: </b></label>
+                              <input class="form-control" type="text" id="kilo_driven" name="kilo_driven" placeholder="Enter no. of Kilometers travelled"></input>
+                            </div>
+        
+                            <div class="col-18 form-group" style="text-align:center">
+                              <button class="btn btn-primary form-control" onclick="send_data()">Predict Price</button>
+                            </div>
+        
+                            
+        
+                          </form>
+                          <br>
+        
+                          <div class="row">
+                            <div class="col-12" style="text-align:center";>
+                              <h3><span id="prediction"></span></h3>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+            <script>
+              
+              function load_car_models(company_id, car_model_id)
+              {
+                var company = document.getElementById(company_id);
+                var car_model = document.getElementById(car_model_id);
+                car_model.value="";
+                car_model.innerHTML="";
+        
+                {% for company in companies %}
+                  if(company.value == "{{company}}")
+                  {
+                    {% for model in car_models %}
+        
+                    {% if company in model %}
+        
+                      var newOption = document.createElement("option");
+                      newOption.value = "{{ model }}";
+                      newOption.innerHTML = "{{ model }}";
+                      car_model.options.add(newOption);
+        
+                    {% endif %}
+        
+                    {% endfor %}
+                  }
+                {% endfor %}
+              }
+        
+        
+              function form_handler(event)
+              {
+                event.preventDefault();
+              }
+        
+        
+              function send_data()
+              {
+                // suppress form default behaivour
+                document.querySelector('form').addEventListener('submit',form_handler);
+                
+                //send and Recieve data to / predict
+                var fd = new FormData(document.querySelector('form'));
+        
+                var xhr = new XMLHttpRequest();
+        
+                xhr.open('POST','/predict',true)
+                document.getElementById("prediction").innerHTML="Wait! Predicting Price...!";
+        
+                xhr.onreadystatechange = function()
+                {
+                  if(xhr.readyState == XMLHttpRequest.DONE)
+                  {
+                    document.getElementById("prediction").innerHTML="Prediction: Rs "+xhr.responseText;
+                  }
+                }
+        
+        
+                xhr.onload=function(){};
+                xhr.send(fd);
+              }
+        
+            </script>
+        
+           
+        </section>
+    <!--==================== FEATURES ====================-->
+    <section class="features section">
+        <h2 class="section__title">
+            More Features
+        </h2>
+
+        <div class="features__container container grid">
+            <div class="features__group">
+                <img src="static/img/features.png" alt="" class="features__img">
+
+
+                <div class="features__card features__card-1">
+                    <h3 class="features__card-title">800v</h3>
+                    <p class="features__card-description">Turbo <br> Chargin</p>
+                </div>
+
+                <div class="features__card features__card-2">
+                    <h3 class="features__card-title">350</h3>
+                    <p class="features__card-description">Km <br> Range</p>
+                </div>
+                <div class="features__card features__card-3">
+                    <h3 class="features__card-title">480</h3>
+                    <p class="features__card-description">Km <br> Travel</p>
+                </div>
+            </div>
+        </div>
+
+        <img src="static/img/map.svg" alt="" class="features__map">
+
+    </section>
+
+    <!--==================== FEATURED ====================-->
+    <section class="featured section" id="featured">
+        <h2 class="section__title">Featured Luxury Cars</h2>
+        <div class="featured__container container">
+            <ul class="featured__filters">
+                <li>
+                    <button class="featured__item active-featured" data-filter="all">
+                        <span>All</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="featured__item" data-filter=".tesla">
+                        <img src="static/img/logo3.png" alt="">
+
+                    </button>
+                </li>
+                <li>
+                    <button class="featured__item" data-filter=".audi">
+                        <img src="static/img/logo2.png" alt="">
+                    </button>
+                </li>
+                <li>
+                    <button class="featured__item" data-filter=".porsche">
+                        <img src="static/img/logo1.png" alt="">
+                    </button>
+                </li>
+            </ul>
+
+            <div class="featured__content grid">
+
+                <article class="featured__card mix tesla">
+                    <div class="shape shape__smaller"></div>
+
+                    <h1 class="featured__title">Tesla</h1>
+                    <h3 class="featured__subtitle">Model X</h3>
+                    <img src="static/img/featured1.png" alt="" class="featured__img">
+                    <h3 class="featured__price">$98,900</h3>
+                    <button class="button featured__button">
+                        <i class="ri-shopping-bag-2-line"></i>
+                    </button>
+
+                </article>
+                <article class="featured__card mix tesla">
+                    <div class="shape shape__smaller"></div>
+
+                    <h1 class="featured__title">Tesla</h1>
+                    <h3 class="featured__subtitle">Model 3</h3>
+                    <img src="static/img/featured2.png" alt="" class="featured__img">
+                    <h3 class="featured__price">$45,900</h3>
+                    <button class="button featured__button">
+                        <i class="ri-shopping-bag-2-line"></i>
+                    </button>
+
+                </article>
+                <article class="featured__card mix audi">
+                    <div class="shape shape__smaller"></div>
+
+                    <h1 class="featured__title">Audi</h1>
+                    <h3 class="featured__subtitle">E-tron</h3>
+                    <img src="static/img/featured3.png" alt="" class="featured__img">
+                    <h3 class="featured__price">$175,900</h3>
+                    <button class="button featured__button">
+                        <i class="ri-shopping-bag-2-line"></i>
+                    </button>
+
+                </article>
+                <article class="featured__card mix porsche">
+                    <div class="shape shape__smaller"></div>
+
+                    <h1 class="featured__title">Porsche</h1>
+                    <h3 class="featured__subtitle">Boxster 987</h3>
+                    <img src="static/img/featured4.png" alt="" class="featured__img">
+                    <h3 class="featured__price">$126,900</h3>
+                    <button class="button featured__button">
+                        <i class="ri-shopping-bag-2-line"></i>
+                    </button>
+
+                </article>
+                <article class="featured__card mix porsche">
+                    <div class="shape shape__smaller"></div>
+
+                    <h1 class="featured__title">Porsche</h1>
+                    <h3 class="featured__subtitle">Panamera</h3>
+                    <img src="static/img/featured5.png" alt="" class="featured__img">
+                    <h3 class="featured__price">$175,900</h3>
+                    <button class="button featured__button">
+                        <i class="ri-shopping-bag-2-line"></i>
+                    </button>
+
+                </article>
+
+            </div>
+        </div>
+
+    </section>
+   
+
+    <!--==================== OFFER ====================-->
+    <section class="offer section">
+
+        <div class="offer__container container grid">
+
+            <img src="static/img/offer-bg.png" alt="" class="offer__bg">
+
+            <div class="offer__data">
+                <h2 class="section__title offer__title">
+                    Do You Want To Receive <br> Special Offers?
+                </h2>
+
+                <p class="offer__description">Be the first to receive all the information about our
+                    products and new cars by email by subscribing to our
+                    mailing list.</p>
+
+                <a href="#" class="button">Subscribe Now</a>
+            </div>
+
+            <img src="static/img/offer.png" alt="" class="offer__img">
+
+        </div>
+
+    </section>
+
+    <!--==================== LOGOS ====================-->
+    <section class="logos section">
+        <div class="logos__container container grid">
+            <div class="logos__content">
+                <img src="static/img/logo1.png" alt="" class="logos__img">
+            </div>
+            <div class="logos__content">
+                <img src="static/img/logo6.png" alt="" class="logos__img">
+            </div>
+            <div class="logos__content">
+                <img src="static/img/logo5.png" alt="" class="logos__img">
+            </div>
+            <div class="logos__content">
+                <img src="static/img/logo4.png" alt="" class="logos__img">
+            </div>
+            <div class="logos__content">
+                <img src="static/img/logo3.png" alt="" class="logos__img">
+            </div>
+            <div class="logos__content">
+                <img src="static/img/logo2.png" alt="" class="logos__img">
+            </div>
+
+        </div>
+
+
+
+    </section>
+</main>
+
+<!--==================== FOOTER ====================-->
+<footer class="footer section">
+    <div class="shapeX shape__big"></div>
+    <div class="shapeX shape__small"></div>
+
+    <div class="footer__container container grid">
+        <div class="footer__content">
+            <a href="#" class="footer__logo">
+                <i class="ri-steering-line"></i>
+                NextCar
+            </a>
+            <p class="footer__description">
+                We offer the best cars of <br>
+                the most recognized brands in <br>
+                the world.
+            </p>
+        </div>
+
+
+        <div class="footer__content">
+
+            <h3 class="footer__title">Company </h3>
+
+            <ul class="footer__links">
+                <li>
+                    <a href="#" class="footer__links">About</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__links">Cars</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__links">History</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__links">Shop</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__links"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title">Information </h3>
+            <ul class="footer__links">
+                <li>
+                    <a href="#" class="footer__links">Request a quote</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__links">Find a dealer</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__links">Contact us</a>
+                </li>
+                <li>
+                    <a href="#" class="footer__links">Services</a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="footer__content">
+            <h3 class="footer__title"> Follow us </h3>
+
+            <ul class="footer__social">
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+                <a href="" target="_blank" class="footer__social-link">
+                    <i class="ri-twitter-line"></i>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <span class="footer__copy">
+        &#169; <a target="_blank" href="https://github.com/AarushiDaksh" class="footer__dev-link">3 score.</a> All rigths
+        reserved
+        <p id="date"></p>
+    </span>
+</footer>
+
+<!--=============== SCROLL REVEAL - PAGE ANNIMATION ===============-->
+<script src="assets/js/scrollrevealAnimation.min.js"></script>
+
+<!--=============== SWIPER JS - PRODUCT SLIDER ===============-->
+<script src="/assets/js/swiper-bundle.min.js"></script>
+
+<!--=============== MIXITUP JS - FILTER PRODUCT ===============-->
+<script src="assets/js/mixitup.min.js"></script>
+
+<!--=============== MAIN JS ===============-->
+<script src="assets/js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
